@@ -1,4 +1,4 @@
-## Laravel Translation Manager
+## Laravel Voyager Translation Manager
 
 [![Tests](https://github.com/barryvdh/laravel-translation-manager/actions/workflows/run-tests.yml/badge.svg)](https://github.com/barryvdh/laravel-translation-manager/actions)
 [![Packagist License](https://poser.pugx.org/barryvdh/laravel-translation-manager/license.png)](http://choosealicense.com/licenses/mit/)
@@ -22,7 +22,7 @@ This way, translations can be saved in git history and no overhead is introduced
 
 ## Installation
 
-Require this package in your composer.json and run composer update (or run `composer require barryvdh/laravel-translation-manager` directly):
+Require this package in your composer.json and run composer update (or run `composer require yellow-three/laravel-translation-manager` directly):
 
     composer require barryvdh/laravel-translation-manager
 
@@ -66,7 +66,7 @@ The configuration file by default only includes the `auth` middleware, but the l
 ```
     'route' => [
         'prefix' => 'translations',
-        'middleware' => 'auth',
+        'middleware' => 'admin.user',
     ],
 ```
 

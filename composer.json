@@ -1,8 +1,9 @@
 {
-  "name": "barryvdh/laravel-translation-manager",
-  "description": "Manage Laravel Translations",
+  "name": "yellow-three/laravel-translation-manager",
+  "description": "Manage Laravel Voyager Translations",
   "keywords": [
     "laravel",
+    "voyager",
     "translations",
     "translator"
   ],
